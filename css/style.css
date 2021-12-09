@@ -1,0 +1,16 @@
+.cards {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  background-color: white;
+  border: 1px solid grey;
+  width: calc(100% / 4);
+}
+
+.card img {
+  width: 80%;
+}
